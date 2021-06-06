@@ -1,4 +1,4 @@
-import movieInfoStyle from './movieInfo.module.css';
+import movieInfoStyle from '../../styles/movieInfo.module.css';
 import Image from 'next/image';
 import { useContext, useEffect, useState } from 'react';
 import Movie from '../../components/Movie';

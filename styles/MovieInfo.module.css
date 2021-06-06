@@ -1,8 +1,6 @@
 .container {
   padding: 80px 40px !important;
 }
-.grid:nth-child(1) {
-}
 .cover {
   /* border: 4px double var(--primary) !important; */
   border-left: solid 10px var(--primary) !important;

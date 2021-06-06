@@ -1,0 +1,33 @@
+.btns {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  cursor: pointer;
+  margin: 10px 10px;
+}
+.search{
+  display: flex;
+  align-items: center;
+  max-width: 1800px !important;
+  margin: auto !important;
+  margin: 20px 120px !important;
+  box-shadow: var(--shadowPrim);
+  border-radius: 5px;
+  padding: 10px;
+
+}
+.search > input{
+  flex: 1;
+  background: transparent;
+  border: none;
+  height: 100%;
+  outline: none;
+  color: var(--primary);
+  font-size: 15px;
+  padding-left: 10px;
+}
+.searchIcon{
+  color: var(--primary);
+  cursor: pointer;
+}

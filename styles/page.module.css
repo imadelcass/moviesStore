@@ -1,0 +1,29 @@
+.nextLast {
+  width: 60px;
+  margin: auto;
+  margin-bottom: 5px;
+  display: flex;
+}
+.goBtn {
+  background: var(--seconlite);
+  color: var(--primary);
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 2px;
+  margin: 0 2px;
+}
+.goBtn:disabled {
+  color: var(--secondary);
+}
+.goBtn:disabled:hover {
+  color: var(--secondary);
+  background: var(--seconlite);
+}
+.goBtn:hover {
+  color: var(--secondary);
+  background: var(--primary);
+}
+.goBtn > svg {
+  transform: scale(1.3);
+}
